@@ -1,0 +1,471 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box	;
+}
+.slide-container{
+	width: 100%;
+	position: relative;
+
+}
+.slide{
+	display: none;
+}
+.slide img{
+	width: 100%;
+	height: 95vh;
+}
+.caption{
+	color:rgb(37, 134, 153);
+	background-color:rgba(255, 255, 255,0.5 ); ;
+	top: 50%;
+	right: 120px;
+	font-size: 20px;
+	position: absolute;
+}
+.caption:hover{
+	border: 4px groove rgb(37, 134, 153);
+
+}
+.caption h3{
+	color: black;
+}
+.arrow{
+	cursor: pointer;
+	background: rgba(255, 255, 255,0.5 );
+	position: absolute;
+	top: 45%;
+	font-size: 24px;
+	font-weight: 700		;
+	padding: 8px 18px;
+	border-radius: 50%;
+}
+.next{
+	left: 10px;
+
+}
+.prev{
+	right: 10px;
+}
+.icon{
+	display:flex;
+	flex:wrap;
+	width:31%;
+		align-items:center;
+
+}
+.navbar{
+	display:flex;
+	flex:wrap;
+	width:100%;
+	align-items:center;
+	background:white;
+	border-bottom: 4px groove rgb(37, 134, 153);
+}
+.navbar:hover{
+	box-shadow: 0 4px 7px rgb(37, 134, 153);}
+.clogo{
+	width:15%;
+}
+.clogo img{
+	       width: 100%;
+	
+}
+
+.menu{
+	
+	width:70%;
+}
+.menu ul{
+	display:flex;
+	flex:wrap;
+    justify-content: space-around;
+	}
+.menu{
+	text-decoration:none;
+}
+.menu ul li a{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+.menu ul li a:hover{
+		color:rgb(37, 134, 153);
+
+}
+.front{
+	position: relative;
+    width: 100%;
+    overflow: hidden;
+	    transform: 20deg;
+
+}
+.front img{
+	
+	background-position: center;
+	background-size: cover;
+	width:100%;
+	height:85%;
+	clip:rect(0px,0px,60px,0px);
+}
+
+.kind{
+	    position: relative;
+}
+.logo h1{
+	color:rgb(37, 134, 153);
+}
+.sec{
+	padding-top: 68px;
+    padding-bottom: 84px;
+
+	background-color:rgb(242, 242, 242);
+}
+.sec h3{
+	text-align: center;
+    font-size: 36px;
+    color: gray;
+}
+.img2{
+	cursor: pointer;
+	padding-top: 64px;
+	display: flex;
+    justify-content: space-around;
+	color:rgb(37, 134, 153);
+}
+.hands:hover{
+
+	background-color:rgb(247, 252, 249);
+	border-radius:10px;
+}
+.heart:hover{
+	background-color:rgb(247, 252, 249);
+	border-radius:10px;
+}
+.receiver:hover{
+	background-color:rgb(247, 252, 249);
+	border-radius:10px;
+}
+.scholarship:hover{
+	background-color:rgb(247, 252, 249);
+	border-radius:10px;
+}
+.third{
+		background-color:rgb(190, 215, 237);
+		display:flex;
+		padding-bottom: 51px;
+
+		width:100%;
+}
+.causes {
+    padding-top: 37px;
+}
+.three{
+	padding: 74px;
+	width: 450px;
+    height: 410px;
+    width:50%;
+}
+two{
+	width:50%;
+}
+.three img{
+	height: 406px;
+	border-radius: 20px;
+    width:100%;
+}
+.top{
+	    margin-top: 67px;
+	margin-left: 53px;
+	height: 187px;
+	border-radius: 20px;
+	
+	background-color:rgb(247, 252, 249);
+}
+.top h3{
+	color:rgb(37, 134, 153);
+}
+.top h1{
+	color:grey;
+}
+
+.bottom{
+	margin-top: 26px;
+	margin-left: 53px;
+	height: 197px;
+	border-radius: 20px;
+	width:200px;
+	background-color:rgb(247, 252, 249);
+}
+.bottom h2{
+	color:rgb(37, 134, 153);
+	
+}
+.big{
+	display:flex;
+	
+}
+.side{
+	text-align:center;
+	    height: 199px;
+
+	    margin-top: 26px;
+	    background-color: rgb(247, 252, 249);
+    margin-left: 20px;
+    width: 151px;
+    border-radius: 20px;
+}
+.side h1{
+	color:rgb(37, 134, 153);
+}
+.aunt img{
+	width:100%;
+}
+.auntimg{
+	width:50%;
+}
+.auntwrite{
+	color:grey;
+	width:50%;
+    padding-left: 90px;
+}
+.aunty img{
+	margin-left: 361px;
+	width: 371px;
+    padding-top: 91px;
+	height: 425px;
+	border-radius:20px;
+}
+.aunty {
+    height: 508px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+.icon2{
+	display:flex;
+	color:grey;
+	margin-left: 90px;
+	background-color: grey;
+    width: 70px;
+}
+.auntwrite h1 {
+    color: #554e4e;
+    padding-bottom: 25px;
+}
+.page4 {
+	border-bottom: 4px groove rgb(37, 134, 153);
+	border-top: 4px groove rgb(37, 134, 153);
+
+    background-color: rgb(190, 215, 237);
+    padding-bottom: 41px;
+    width: 100%;
+    height: 208px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+.page4:hover{
+	box-shadow: 0 5px 9px rgb(37, 134, 153);
+}
+.small{
+	width:50%;
+}
+.small2{
+	width:50%;
+	display:flex;
+	    font-size: 20px;
+
+}
+.one h4:hover{
+	color:white;
+	background-color:grey;
+	border-radius:5px;
+}
+.one2 h4:hover{
+	color:white;
+		background-color:grey;
+			border-radius:5px;
+
+
+}
+.small h1{
+		padding-top: 55px;
+    text-align: left;
+    padding-left: 230px;
+	    font-size: 50px;
+
+}
+
+.one2 h4{
+    margin-left: 102px;
+
+}
+.development{
+	display:flex;
+    padding-left: 157px;
+	padding-top: 31px;
+    padding-bottom: 71px;
+}
+.ourcauses h1{
+	color:grey;
+	text-align:center;
+}
+.education img {
+    border-radius: 42px 42px 0px 0px;
+    width: 316px;
+}
+
+.development h3 {
+    padding-bottom: 24px;
+}
+
+.poverty{
+    margin-left: 100px;
+}
+.poverty img{
+	border-radius: 42px 42px 0px 0px;
+
+    width: 316px;
+}
+.water{
+	margin-left: 100px;
+}
+.water img{
+	border-radius: 42px 42px 0px 0px;
+
+    width: 316px;
+}
+.education h1{
+color: #62b862;
+    padding-left: 18px;
+    font-size: 22px;
+    font-family: system-ui;
+}
+.education h2{
+	border-radius: 0px 0px 18px 18px;
+    height: 35px;
+	background: grey;
+		text-align: center;
+}
+.poverty h1{
+	
+
+	text-align:left;
+color: #62b862;
+    font-size: 22px;
+    font-family: system-ui;
+}
+.poverty h3{
+	
+    text-align: left;
+}
+.water h1{
+color: #62b862;
+font-size: 22px;
+    font-family: system-ui;
+}
+.water h3{
+
+}
+.poverty h2{
+	text-align: center;
+	background: grey;
+	border-radius: 0px 0px 18px 18px;
+    height: 35px;
+}
+.water h2{
+	border-radius: 0px 0px 18px 18px;
+    height: 35px;
+	text-align: center;
+	background: grey;
+
+}
+.volunteer{
+	position: relative;
+	height: 521px;
+
+	background-color: rgb(190, 215, 237);}
+.vol {
+    text-align: center;
+    margin-left: 166px;
+    background: white;
+    margin-right: 916px;
+    border-radius: 11px;
+    height: 325px;
+    padding: 10px;
+}
+.volunteer h1 {
+    padding-left: 188px;
+    color: white;
+    padding-bottom: 16px;
+    margin-right: 1033px;
+    padding-top: 36px;
+}
+
+input#fname {
+	border-radius: 5px;
+
+    background: #80808030;
+}
+.name {
+    margin-bottom: 16px;
+    height: 27px;
+    margin-right: 31px;
+}
+.name0{
+	margin-bottom: 16px;
+    height: 27px;
+    
+}
+.name1{
+	margin-bottom: 16px;
+    height: 27px;
+    margin-right: 31px;
+}
+.name2{
+	margin-bottom: 16px;
+    height: 27px;
+}
+.name3{
+	height: 85px;
+    width: 364px;
+	margin-bottom: 16px;
+    height: 83px;
+}
+.vol h3 {
+    padding-top: 15px;
+	font-size: 27px;
+
+}
+.boy {
+	background-color: rgb(190, 215, 237);
+    top: 70px;
+    width: 276px;
+    height: 158px;
+    border-radius: 50%;
+    right: 329px;
+    position: absolute;
+}
+.boy img {
+    width: 196px;
+    height: 175px;
+    border-radius: 69%;
+}
+.sub {
+    width: 363px;
+    height: 27px;
+	background-color: rgb(190, 215, 237);}
+.down {
+    padding-top: 22px;
+    color: white;
+    width: 283px;
+}
+.down h1 {
+    width: 245px;
+    font-size: 20px;
+}
+.down h5 {
+    padding-top: 18px;
+}
